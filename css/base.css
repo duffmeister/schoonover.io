@@ -1,0 +1,11 @@
+#cover {
+  background-color: #000;
+  background-image: url('/images/ellee_blanket.jpg');
+  background-size: cover;
+  background-position: 50%;
+  height: 100vh;
+  max-height: 100%;
+  width: 100%;
+  text-shadow: 0 0 10px rgba(0,0,0,.8);
+  color: #fff;
+}
