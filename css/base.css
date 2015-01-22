@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 #cover {
+=======
+.cover {
+>>>>>>> Stashed changes
   background-color: #000;
   background-image: url('/images/ellee_blanket.jpg');
   background-size: cover;
@@ -6,6 +10,53 @@
   height: 100vh;
   max-height: 100%;
   width: 100%;
+<<<<<<< Updated upstream
   text-shadow: 0 0 10px rgba(0,0,0,.8);
+=======
+}
+
+.cover>h1 {
+  text-align: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  padding: 10px;
+  color: #fff;
+  font-size: 2em;
+  text-shadow: 0 0 10px rgba(0,0,0,.8);
+  margin: 0;
+  margin-top: 20px;
+  padding: 0;
+}
+
+.cover .members {
+  text-align: center;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  bottom: 0;
+  background-color: rgba(0,0,0,.4);
+  padding: 10px;
+}
+
+.cover .members ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cover .members ul>li {
+  display: inline-block;
+  width: 15%;
+}
+
+.cover .members .name {
+  color: #fff;
+  font-size: 2em;
+}
+
+.cover .members a {
+>>>>>>> Stashed changes
   color: #fff;
 }
